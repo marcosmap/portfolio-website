@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marcos Arreguín</title>
+  <!-- BOOTSTRAP 4 CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- FONTAWESOME -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-dark">
+  
+  <!-- barra de navegacion -->
+  <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-dark p-3">
+    <a class="navbar-brand" href="index.html" style="color: #FF5733;">Marcos Arreguín</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item ml-3">
+          <a class="nav-link" id="btn-inicio">Inicio</a>
+        </li>
+        <li class="nav-item ml-3">
+          <a class="nav-link" id="btn-about-me">Sobre mí</a>
+        </li>
+        <li class="nav-item ml-3">
+          <a class="nav-link" id="btn-portafolio">Portafolio</a>
+        </li>
+        <li class="nav-item ml-3">
+          <a class="nav-link" id="btn-contacto">Contáctame</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- presentacion -->
+  <div class="presentacion mb-5">
+    <h6>HOLA, ME LLAMO</h6>
+    <h1>Marcos Arreguín</h1>
+    <h4>Desarrollador web</h4>
+    <button type="button" id="btn-contactame" class="btn-contactame">Contáctame   <i class="fas fa-angle-right icono"></i></button>
+  </div>
+
+  <!-- sobre mi -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="about-me mb-5 d-flex flex-row flex-wrap justify-content-between align-items-center" id="about-me">
+          <h2 class="my-5 text-center col-12">SOBRE MÍ</h2>
+          <div class="desc col-lg-8 col-sm-12">
+            <p>Bienvenidos a mi portafolio personal, mi nombre es Marcos Manuel Arreguín Pérez, actualmente estudio el último año de la carrera de Matemáticas Aplicadas y Computación en la Universidad Nacional Autónoma de México.</p>
+            <p>Mi pasión por la programación comenzó hace apenas un par de años pues cuando entré a la carrera me inclinaba más por la rama de matemáticas apliacadas pero al practicar más y más la programación, al final pude desarrollar una lógica y aprender a dominar paradigmas como la Programación Orientada a Objetos y la de procedimientos, lo cual me llevó a escoger esta rama como mi pasión pues disfruto hacerlo y me divierte.</p>
+            <p>Los lenguajes de programación que domino son: </p>
+            <ul class="conocimientos">
+              <li>Javascript</li>
+              <li>PHP</li>
+              <li>Python</li>
+            </ul>
+            <p>Otros conocimientos: </p>
+            <ul class="web-tools">
+              <li>HTML, CSS, SASS y frameworks CSS como Bootstrap 4, Skeleton y Materialize</li>
+              <li>SQL</li>
+            </ul>
+          </div>
+          <div class="foto-about-me col-lg-4 col-sm-4">
+            <img src="img/nube-lenguajes.png" alt="Lenguajes de programación" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- portafolio -->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="portafolio mb-5">
+          <h2 class="my-5 text-center" style="color: #FF5733;">PORTAFOLIO</h2>
+          <p>Algunos de mis proyectos personales y escolares (la mayoría se encuentran en mi GitHub)...</p>
+          <div class="proyectos mt-4 d-flex flex-row flex-wrap justify-content-around">
+            <div class="col-lg-4 col-md-6 col-sm-10">
+              <div class="card my-3">
+                <img src="img/microsoft-clone.png" alt="Clone de Microsoft Home" class="card-img-top img-fluid">
+                <div class="card-body">
+                  <h5 class="card-title">Clon Microsoft Homepage</h5>
+                  <p class="card-text">Clon de la página principal de Windows realizada con HTML, CSS y Javascript.</p>
+                  <a href="https://github.com/marcosmap/microsoft-homepage-clone" target="_blank" class="btn btn-cards">Ver en GitHub</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-10">
+              <div class="card my-3">
+                <img src="img/tasks-system.png" alt="Sistema PHP" class="card-img-top img-fluid">
+                <div class="card-body">
+                  <h5 class="card-title">Sistema de Tareas</h5>
+                  <p class="card-text">Sistema de tareas desarrollado con HTML, Bootstrap 4 y PHP. Se debe registrar un usuario e iniciar sesión para usar la app.</p>
+                  <a href="https://github.com/marcosmap/php-tasks-system" target="_blank" class="btn btn-cards">Ver en GitHub</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-10">
+              <div class="card my-3">
+                <img src="img/portafolio.png" alt="Portafolio" class="card-img-top img-fluid">
+                <div class="card-body">
+                  <h5 class="card-title">Mi portafolio</h5>
+                  <p class="card-text">Esta misma página web, realizada con HTML, CSS, Boostrap 4, Javascript y PHP.</p>
+                  <!--<a href="#" target="_blank" class="btn btn-cards">Ver en GitHub</a>-->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- contactame -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-8 col-sm-10 mb-5 contactame">
+        <h2 class="text-center my-5" style="color: #FF5733;">CONTÁCTAME</h2>
+        <form id="form" action="includes/email.php" method="POST">
+          <div class="form-group">
+            <input type="text" placeholder="Nombre" name="name" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Correo electrónico" name="email" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Mensaje" rows="7" class="form-control" name="message" style="resize: none;" required></textarea>
+          </div>
+          <input type="submit" name="btn-submit" class="btn btn-cards btn-block" value="Enviar">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- redes sociales -->
+  <footer class="mt-5">
+    <h2 class="text-center mb-3 sigueme">Sígueme</h2>
+    <div class="redes-sociales">
+      <a href="https://www.linkedin.com/in/marcos-arregu%C3%ADn-695418186/" target="_blank" class="linkedin"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/marcosmap1998" target="_blank" class="github"><i class="fab fa-github"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-twitter-square"></i></a>
+    </div>
+    <div class="derechos text-center mt-4">
+      <small>Todos los derechos reservados. Marcos Arreguín &copy;</small>
+    </div>
+  </footer>
+
+  <!-- BOOTSTRAP 4 JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <!--scrollreveal-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <!-- JQUERY -->
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <!-- JS PERSONALIZADO -->
+  <script src="js/efectos.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
