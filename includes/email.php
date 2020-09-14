@@ -1,7 +1,7 @@
 <?php
 
   if(isset($_POST['btn-submit'])) {
-    $destino = 'manuelarreguin0421@gmail.com';
+    $destino = 'email@email.com';
     $nombre = htmlentities($_POST['name']);
     $email = htmlentities($_POST['email']);
     $mensaje = htmlentities(($_POST['message']));
